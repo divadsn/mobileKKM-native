@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_tickets"
+        android:icon="@drawable/ic_menu_wallet"
+        android:title="@string/nav_tickets" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_menu_account"
+        android:title="@string/nav_account" />
+
+    <item
+        android:id="@+id/nav_prices"
+        android:icon="@drawable/ic_menu_basket"
+        android:title="@string/nav_prices" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="@string/nav_settings" />
+
+</menu>
