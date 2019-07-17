@@ -12,9 +12,9 @@
         android:title="@string/nav_account" />
 
     <item
-        android:id="@+id/nav_prices"
-        android:icon="@drawable/ic_menu_basket"
-        android:title="@string/nav_prices" />
+        android:id="@+id/nav_backups"
+        android:icon="@drawable/ic_menu_backups"
+        android:title="@string/nav_backups" />
 
     <item
         android:id="@+id/nav_settings"
