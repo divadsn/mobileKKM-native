@@ -5,7 +5,4 @@
     <string name="nav_account">Moje konto</string>
     <string name="nav_backups">Kopie zapasowe</string>
     <string name="nav_settings">Ustawienia</string>
-
-    <string name="action_backups">@string/nav_backups</string>
-    <string name="action_logout">Wyloguj się</string>
 </resources>
