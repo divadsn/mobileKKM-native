@@ -6,4 +6,6 @@
 
     <color name="colorBackground">#FFFFFF</color>
     <color name="colorBackgroundDark">#AAAAAA</color>
+
+    <color name="lollipopStatusBar">#9E9E9E</color>
 </resources>

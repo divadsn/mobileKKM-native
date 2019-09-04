@@ -6,17 +6,18 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/colorBackground</item>
-        <item name="android:statusBarColor">@color/colorBackgroundDark</item>
+        <item name="android:statusBarColor">@color/lollipopStatusBar</item>
     </style>
 
     <style name="AppTheme" parent="AppTheme.Base" />
 
     <style name="ToolbarTheme" parent="Theme.AppCompat.DayNight">
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="colorPrimary">@color/colorBackground</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:fontFamily">@font/metropolis_semibold</item>
     </style>
 
     <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/colorBackground</item>
         <item name="android:fontFamily">@font/metropolis_medium</item>
     </style>
 
