@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- Base application theme -->
     <style name="AppTheme.Base" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -9,6 +9,7 @@
         <item name="android:statusBarColor">@color/lollipopStatusBar</item>
     </style>
 
+    <!-- Refer to this for specific options that require min api level -->
     <style name="AppTheme" parent="AppTheme.Base" />
 
     <style name="ToolbarTheme" parent="Theme.AppCompat.DayNight">
