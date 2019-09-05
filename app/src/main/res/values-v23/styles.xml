@@ -2,7 +2,7 @@
 
     <!-- Android 6.0 introduced light status bar -->
     <style name="AppTheme" parent="AppTheme.Base">
-        <item name="android:statusBarColor">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/primaryLightColor</item>
         <item name="android:windowLightStatusBar">@bool/lightStatusBar</item>
     </style>
 

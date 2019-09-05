@@ -2,8 +2,8 @@
 
     <!-- Android 8.1 introduced light navigation bar -->
     <style name="AppTheme" parent="AppTheme.Base">
-        <item name="android:statusBarColor">@color/colorBackground</item>
-        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/primaryLightColor</item>
+        <item name="android:navigationBarColor">@color/primaryLightColor</item>
         <item name="android:windowLightStatusBar">@bool/lightStatusBar</item>
         <item name="android:windowLightNavigationBar">@bool/lightNavigationBar</item>
     </style>

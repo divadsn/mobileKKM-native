@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#303F9F</color>
-    <color name="colorPrimaryDark">#1A237E</color>
-    <color name="colorAccent">#3F51B5</color>
 
-    <color name="colorBackground">#FFFFFF</color>
-    <color name="colorBackgroundDark">#AAAAAA</color>
+    <!-- Base palette -->
+    <color name="primaryColor">#ffffff</color>
+    <color name="primaryLightColor">#ffffff</color>
+    <color name="primaryDarkColor">#cccccc</color>
+    <color name="secondaryColor">#303f9f</color>
+    <color name="secondaryLightColor">#666ad1</color>
+    <color name="secondaryDarkColor">#001970</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
 
-    <color name="lollipopStatusBar">#9E9E9E</color>
+    <!-- Theme variables -->
+    <color name="backgroundColor">@color/primaryColor</color>
+    <color name="backgroundLightColor">@color/primaryLightColor</color>
+
+    <!-- Fallback color -->
+    <color name="lollipopStatusBar">#9e9e9e</color>
+
 </resources>
