@@ -1,7 +1,7 @@
 # mobileKKM
 [![Build Status](https://build.codebucket.de/api/badges/divadsn/mobileKKM-native/status.svg)](https://build.codebucket.de/divadsn/mobileKKM-native)
 [![GitHub release](https://img.shields.io/github/release/divadsn/mobileKKM-native/all.svg)](https://github.com/divadsn/mobileKKM-native/releases)
-[![Codacy grade](https://img.shields.io/codacy/coverage/0f52b456420445cea1a864bfaefb27ac.svg)](https://app.codacy.com/project/divadsn/mobileKKM-native/dashboard)
+[![Codacy grade](https://img.shields.io/codacy/grade/d82b7099e5a14291bdb8ee0cfeeebd5e.svg)](https://app.codacy.com/project/divadsn/mobileKKM-native)
 [![Releases](https://img.shields.io/badge/telegram-%40mobilekkmci-blue.svg)](https://t.me/mobilekkmci)
 [![Donate on PayPal](https://img.shields.io/badge/PayPal-Donate%20Now-brightgreen.svg)](https://paypal.me/divadsn)
 
