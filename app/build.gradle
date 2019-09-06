@@ -128,7 +128,7 @@ dependencies {
     implementation "androidx.preference:preference:${supportLibVersion}"
     implementation "com.takisoft.preferencex:preferencex:${supportLibVersion}"
     implementation "com.takisoft.preferencex:preferencex-ringtone:${supportLibVersion}"
-    implementation "com.google.android.material:material:${supportLibVersion}"
+    implementation "com.google.android.material:material:1.1.0-alpha10"
 
     // Retrofit2 with Gson
     implementation "com.squareup.okhttp3:okhttp:3.12.0"
