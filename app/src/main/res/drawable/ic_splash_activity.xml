@@ -3,8 +3,9 @@
 
     <item android:drawable="@color/ic_launcher_background" />
 
+    <!-- TODO: Get rid of splash_activity drawable and use logo -->
     <item
-        android:drawable="@drawable/ic_kkm_logo"
+        android:drawable="@drawable/ic_notification_kkm"
         android:gravity="center" />
 
 </layer-list>
