@@ -5,7 +5,7 @@
 
     <!-- TODO: Get rid of splash_activity drawable and use logo -->
     <item
-        android:drawable="@drawable/ic_notification_kkm"
+        android:drawable="@drawable/ic_kkm_logo"
         android:gravity="center" />
 
 </layer-list>
