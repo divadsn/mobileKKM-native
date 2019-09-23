@@ -14,6 +14,7 @@
     <!-- Theme variables -->
     <color name="backgroundColor">@color/primaryColor</color>
     <color name="backgroundLightColor">@color/primaryLightColor</color>
+    <color name="gray">#777777</color>
 
     <!-- Fallback color -->
     <color name="lollipopStatusBar">#9e9e9e</color>

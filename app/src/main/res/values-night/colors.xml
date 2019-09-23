@@ -11,6 +11,9 @@
     <color name="primaryTextColor">#ffffff</color>
     <color name="secondaryTextColor">#ffffff</color>
 
+    <!-- Theme variables -->
+    <color name="gray">#a6a6a6</color>
+
     <!-- Fallback color -->
     <color name="lollipopStatusBar">#000000</color>
 

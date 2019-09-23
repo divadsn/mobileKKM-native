@@ -19,8 +19,7 @@
         <item name="android:fontFamily">@font/metropolis_semibold</item>
     </style>
 
-    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
-        <item name="colorPrimary">@color/secondaryColor</item>
+    <style name="BottomNavigationViewTextStyle">
         <item name="android:fontFamily">@font/metropolis_medium</item>
     </style>
 
