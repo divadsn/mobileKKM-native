@@ -13,11 +13,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.appcompat.widget.Toolbar
+        <com.google.android.material.appbar.MaterialToolbar
+            style="@style/Widget.MaterialComponents.Toolbar.Surface"
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimaryVariant"
             app:contentInsetStart="0dp"
             app:contentInsetEnd="0dp"
             app:popupTheme="@style/AppTheme.PopupOverlay">
@@ -36,7 +36,7 @@
 
             </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-        </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.MaterialToolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -56,7 +56,7 @@
             android:layout_gravity="end|bottom"
             android:layout_margin="16dp"
             android:src="@drawable/ic_shopping_cart_plus"
-            app:backgroundTint="#E91E63"
+            app:backgroundTint="@color/color_secondary"
             app:fabSize="normal" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
@@ -66,12 +66,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@color/backgroundLightColor"
+        android:background="@drawable/bg_navigation_bar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:labelVisibilityMode="labeled"
-        app:itemIconTint="@color/bottom_navigation_colors"
-        app:itemTextColor="@color/bottom_navigation_colors"
         app:itemTextAppearanceActive="@style/BottomNavigationViewTextStyle"
         app:itemTextAppearanceInactive="@style/BottomNavigationViewTextStyle"
         app:menu="@menu/bottom_navigation_menu" />

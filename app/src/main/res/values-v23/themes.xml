@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Android 6.0 introduced light status bar -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:statusBarColor">@color/color_surface</item>
+        <item name="android:windowLightStatusBar">@bool/light_status_bar</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/color_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarWithTransparentSystemBars" parent="AppTheme.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+</resources>

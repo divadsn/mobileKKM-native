@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Android 8.1 introduced light navigation bar -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:statusBarColor">@color/color_surface</item>
+        <item name="android:navigationBarColor">@color/color_background</item>
+        <item name="android:windowLightStatusBar">@bool/light_status_bar</item>
+        <item name="android:windowLightNavigationBar">@bool/light_navigation_bar</item>
+        <item name="android:navigationBarDividerColor">?colorControlHighlight</item>
+    </style>
+
+    <style name="AppTheme.SurfaceNavigationBar">
+        <item name="android:navigationBarColor">@color/color_surface</item>
+        <item name="android:navigationBarDividerColor">@null</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarWithTransparentSystemBars" parent="AppTheme.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

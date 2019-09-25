@@ -1,35 +1,7 @@
 <resources>
 
-    <!-- Base application theme -->
-    <style name="AppTheme.Base" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primaryColor</item>
-        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
-        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
-        <item name="colorSecondary">@color/secondaryColor</item>
-        <item name="colorOnSecondary">@color/secondaryTextColor</item>
-        <item name="android:windowBackground">@color/primaryColor</item>
-        <item name="android:statusBarColor">@color/lollipopStatusBar</item>
-    </style>
-
-    <!-- Refer to this for specific options that require min api level -->
-    <style name="AppTheme" parent="AppTheme.Base" />
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.DayNight.ActionBar">
-        <item name="android:fontFamily">@font/metropolis_semibold</item>
-    </style>
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.DayNight">
-        <item name="android:fontFamily">@font/inter_regular</item>
-    </style>
-
     <style name="BottomNavigationViewTextStyle">
         <item name="android:fontFamily">@font/metropolis_medium</item>
-    </style>
-
-    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@drawable/ic_splash_activity</item>
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
 </resources>
