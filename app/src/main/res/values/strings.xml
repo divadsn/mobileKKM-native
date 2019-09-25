@@ -2,6 +2,14 @@
     <string name="app_name" translatable="false">mobileKKM</string>
     <string name="title_home">Home</string>
 
+    <string name="login_title">Krakow Municipal Card</string>
+    <string name="login_subtitle">Log in to mobileKKM</string>
+    <string name="login_email_hint">Email address</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_create_account">Create account</string>
+    <string name="login_submit">Log in</string>
+
     <string name="nav_tickets">Tickets</string>
     <string name="nav_account">Account</string>
     <string name="nav_backups">Backups</string>

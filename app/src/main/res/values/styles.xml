@@ -1,5 +1,15 @@
 <resources>
 
+    <style name="Widget.Custom.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:fontFamily">@font/metropolis_semibold</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="Widget.Custom.UnelevatedButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:fontFamily">@font/metropolis_semibold</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
     <style name="BottomNavigationViewTextStyle">
         <item name="android:fontFamily">@font/metropolis_medium</item>
     </style>

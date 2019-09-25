@@ -19,6 +19,11 @@
             android:theme="@style/AppTheme.SurfaceNavigationBar" />
 
         <activity
+            android:name=".ui.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
             android:name=".ui.SplashActivity"
             android:theme="@style/AppTheme.Launcher">
             <intent-filter>
