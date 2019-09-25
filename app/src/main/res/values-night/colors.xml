@@ -2,8 +2,8 @@
 <resources>
 
     <!-- Base palette -->
-    <color name="color_primary">#5C6bC0</color>
-    <color name="color_primary_variant">#3949ab</color>
+    <color name="color_primary">#7986cb</color>
+    <color name="color_primary_variant">#3f51b5</color>
     <color name="color_secondary">#ff4081</color>
     <color name="color_secondary_variant">#f50057</color>
 
@@ -11,8 +11,8 @@
     <!--background. colorSurface is mapped to the surface of components such as cards, sheets-->
     <!--and menus. colorError is used to indicate an error state for components such as-->
     <!--text fields.-->
-    <color name="color_background">#111111</color>
-    <color name="color_surface">#373737</color>
+    <color name="color_background">#222222</color>
+    <color name="color_surface">#2e2e2e</color>
     <color name="color_error">#cf6679</color>
 
     <!--"On" colors define how text, icons and strokes are colored in relation to the surface-->
