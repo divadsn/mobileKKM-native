@@ -21,7 +21,8 @@
         <activity
             android:name=".ui.LoginActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/AppTheme.LoginActivity" />
 
         <activity
             android:name=".ui.SplashActivity"

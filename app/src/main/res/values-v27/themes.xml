@@ -19,4 +19,10 @@
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="AppTheme.LoginActivity" parent="AppTheme.NoActionBar">
+        <item name="android:navigationBarColor">@color/color_primary</item>
+        <item name="android:navigationBarDividerColor">@null</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
 </resources>

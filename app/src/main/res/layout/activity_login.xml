@@ -10,8 +10,9 @@
         android:id="@+id/login_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:overScrollMode="never"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        app:layout_constraintBottom_toTopOf="@id/login_relative_layout"
+        app:layout_constraintBottom_toTopOf="@id/login_footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -20,9 +21,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingLeft="24dp"
-            android:paddingTop="?attr/actionBarSize"
-            android:paddingRight="24dp">
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="?attr/actionBarSize">
 
             <TextView
                 android:id="@+id/login_title"
@@ -90,6 +91,16 @@
 
     </ScrollView>
 
+    <ImageView
+        android:id="@+id/login_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_login_footer"
+        app:layout_constraintBottom_toTopOf="@id/login_relative_layout"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <RelativeLayout
         android:id="@+id/login_relative_layout"
         android:layout_width="match_parent"
@@ -98,26 +109,25 @@
         android:paddingEnd="24dp"
         android:paddingTop="12dp"
         android:paddingBottom="12dp"
+        android:background="#5460b0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
         <com.google.android.material.button.MaterialButton
-            style="@style/Widget.Custom.TextButton"
+            style="@style/Widget.Login.TextButton"
             android:id="@+id/login_create_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:text="@string/login_create_account"
-            android:textAllCaps="false" />
+            android:text="@string/login_create_account" />
 
         <com.google.android.material.button.MaterialButton
-            style="@style/Widget.Custom.UnelevatedButton"
+            style="@style/Widget.Login.UnelevatedButton"
             android:id="@+id/login_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:text="@string/login_submit"
-            android:textAllCaps="false" />
+            android:text="@string/login_submit" />
 
     </RelativeLayout>
 
