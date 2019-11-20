@@ -8,6 +8,7 @@
     <string name="login_forgot_password">Przypomnij hasło</string>
     <string name="login_create_account">Załóż konto</string>
     <string name="login_submit">Zaloguj się</string>
+    <string name="login_loading">Logowanie…</string>
 
     <string name="nav_tickets">Bilety</string>
     <string name="nav_account">Moje konto</string>

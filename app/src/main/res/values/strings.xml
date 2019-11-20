@@ -9,6 +9,7 @@
     <string name="login_forgot_password">Forgot password?</string>
     <string name="login_create_account">Create account</string>
     <string name="login_submit">Log in</string>
+    <string name="login_loading">Logging in…</string>
 
     <string name="nav_tickets">Tickets</string>
     <string name="nav_account">Account</string>

@@ -92,6 +92,36 @@
 
     </ScrollView>
 
+    <LinearLayout
+        android:id="@+id/login_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:alpha="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:id="@+id/login_loading_spinner"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginBottom="12dp"
+            android:indeterminateTint="@color/color_primary" />
+
+        <TextView
+            android:id="@+id/login_loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/metropolis_semibold"
+            android:text="@string/login_loading"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/login_footer"
         android:layout_width="match_parent"
