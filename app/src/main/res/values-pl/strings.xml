@@ -10,8 +10,20 @@
     <string name="login_submit">Zaloguj się</string>
     <string name="login_loading">Logowanie…</string>
 
+    <string name="registration_title">Rejestracja konta</string>
+    <string name="registration_complete">Sprawdź swoją skrzynkę pocztową, aby zakończyć rejestrację konta</string>
+
     <string name="nav_tickets">Bilety</string>
     <string name="nav_account">Moje konto</string>
     <string name="nav_backups">Kopie zap.</string>
     <string name="nav_settings">Ustawienia</string>
+
+    <string name="error_email_required">Wpisz prawidłowy adres e-mail</string>
+    <string name="error_password_required">Wpisz poprawne hasło</string>
+    <string name="error_invalid_credentials">Niepoprawne dane logowania</string>
+    <string name="error_no_network">Brak połączenia z Internetem</string>
+    <string name="error_unknown">Unknown error</string>
+
+    <string name="intent_chooser_file">Wybierz plik</string>
+    <string name="snackbar_retry">Odśwież</string>
 </resources>

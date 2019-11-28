@@ -25,6 +25,11 @@
             android:theme="@style/AppTheme.LoginActivity" />
 
         <activity
+            android:name=".ui.RegistrationActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <activity
             android:name=".ui.SplashActivity"
             android:theme="@style/AppTheme.Launcher">
             <intent-filter>
