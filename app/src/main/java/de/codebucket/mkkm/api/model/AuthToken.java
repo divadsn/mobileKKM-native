@@ -1,4 +1,4 @@
-package de.codebucket.mkkm.model;
+package de.codebucket.mkkm.api.model;
 
 import android.util.Base64;
 
